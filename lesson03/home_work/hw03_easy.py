@@ -5,6 +5,15 @@
 # Для решения задачи не используйте встроенные функции и функции из модуля math.
 
 def my_round(number, ndigits):
+    list_number = list(str(number))
+    # ['2', '.', '1', '2', '3', '4', '5', '6', '7']
+
+    # list_number.
+
+
+    print(list_number)
+    list_number.reverse()
+    print(list_number)
     pass
 
 
